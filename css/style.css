@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap');
+/*
+Vars: 
+Defined in :root
+property: var(--varName);
+*/
+:root{
+    --background: #202020;
+    --primary: #005B41;
+    --secondary: #232D3F;
+    --no-style-links: #F39F5A;
+}
+
+* {
+    font-family: 'Lexend', sans-serif;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+.navbar {
+    display: flex;
+    background-color: var(--primary);
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.element {
+    color: white;
+    padding-inline: 10px;
+}
+
+.removestyle {
+    text-decoration: inherit;
+    color: var(--no-style-links);
+}
+
+.e {
+    background-color: white;
+}
+
+/* .navbar {
+    background-color:#404040;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.navbar-item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: inherit;
+    color: inherit;
+    color: #ffffff;
+    background-color: #404040;
+    padding: 0.7em 0.7em;
+    border-radius: 0.2em;
+}
+.navbar-title {
+    background-color: rgb(255, 196, 0);
+} */
