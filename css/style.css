@@ -12,8 +12,7 @@ property: var(--varName);
 }
 
 * {
-    font-family: 'Lexend', sans-serif;
-
+    font-family: 'Lexend', sans-serif; /* La police est toujours Lexend donc on peut la mettre ici, dans le selecteur universel*/
 }
 body {
     margin: 0;
@@ -39,9 +38,21 @@ body {
     text-decoration: inherit;
     color: var(--no-style-links);
 }
+.current {
+    color: var(--secondary);
+}
 
 .e {
     background-color: white;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+    padding: 10px;
 }
 
 /* .navbar {
