@@ -55,6 +55,12 @@ body {
     padding: 10px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 /* .navbar {
     background-color:#404040;
     display: flex;
