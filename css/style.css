@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 /*
 Vars: 
 Defined in :root
@@ -11,10 +12,8 @@ property: var(--varName);
     --no-style-links: #F39F5A;
 }
 
-* {
-    font-family: 'Lexend', sans-serif; /* La police est toujours Lexend donc on peut la mettre ici, dans le selecteur universel*/
-}
 body {
+    font-family: 'Lexend', sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--background);
@@ -24,12 +23,10 @@ body {
     background-color: var(--primary);
     justify-content:space-around;
     align-items: center;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-content: space-between;
 }
 
 .element {
+    font-family: 'Quicksand', sans-serif;
     color: white;
     padding-inline: 10px;
 }
@@ -42,9 +39,6 @@ body {
     color: var(--secondary);
 }
 
-.e {
-    background-color: white;
-}
 
 .infos {
     display: flex;
@@ -55,32 +49,11 @@ body {
     padding: 10px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-/* .navbar {
-    background-color:#404040;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-around;
-    align-items: center;
-}
-
-
-.navbar-item {
-    align-items: center;
+.haspicture {
     justify-content: center;
-    display: flex;
-    text-decoration: inherit;
-    color: inherit;
-    color: #ffffff;
-    background-color: #404040;
-    padding: 0.7em 0.7em;
-    border-radius: 0.2em;
+    flex-direction:row;
 }
-.navbar-title {
-    background-color: rgb(255, 196, 0);
-} */
+
+.picture {
+    margin-left: 50px;
+}
