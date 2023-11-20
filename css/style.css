@@ -39,6 +39,9 @@ body {
     color: var(--secondary);
 }
 
+.fact{
+    text-align: center;
+}
 
 .infos {
     display: flex;
