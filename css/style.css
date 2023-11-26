@@ -28,6 +28,7 @@ body {
 .element {
     font-family: 'Quicksand', sans-serif;
     color: white;
+    background: none;
     padding-inline: 10px;
 }
 
@@ -35,6 +36,15 @@ body {
     text-decoration: inherit;
     color: var(--no-style-links);
 }
+
+.element:not(.current) {
+    transition: color 1s ease 0s;
+}
+
+.removestyle:not(.current):hover{
+    color: #2baaca;
+}
+
 .current {
     color: var(--secondary);
 }
