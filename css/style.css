@@ -60,6 +60,12 @@ body {
     background-color: white;
     flex-wrap:wrap-reverse;
     padding: 10px;
+    box-shadow: 5px 5px 30px rgba(255, 255, 255, 0);
+    transition: box-shadow 0.5s ease 0s; 
+}
+
+.infos:hover {
+    box-shadow: 5px 5px 30px rgba(246, 222, 136, 0.8);
 }
 
 .haspicture {
