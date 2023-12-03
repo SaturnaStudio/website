@@ -23,6 +23,8 @@ body {
     background-color: var(--primary);
     justify-content:space-around;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .element {
@@ -37,11 +39,11 @@ body {
     color: var(--no-style-links);
 }
 
-.element:not(.current) {
+a:not(.current) {
     transition: color 1s ease 0s;
 }
 
-.removestyle:not(.current):hover{
+a:not(.current):hover{
     color: #2baaca;
 }
 
